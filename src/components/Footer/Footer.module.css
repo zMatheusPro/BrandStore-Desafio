@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+
+  background: var(--primary-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: calc(57px + 95px) 0 78px 0;
+  gap: 57px;
+}
+
+.footer .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+
+  list-style: none;
+}
+
+.footer .navigation ul {
+  list-style: none;
+}
+
+.footer .navigation ul li {
+  font-size: 1.25rem;
+  line-height: 26.38px;
+  font-weight: 600;
+  color: var(--text-black);
+}
+
+.footer .copyright h1 {
+  font-size: 1.625rem;
+  line-height: 34.29px;
+  font-weight: 600;
+  color: var(--text-black);
+  text-align: center;
+}

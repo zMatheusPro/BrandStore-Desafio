@@ -1,0 +1,24 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #af795d;
+  --secondary-color: #e3ab77;
+  --tertiary-color: #c2966d;
+
+  /* Auxiliary  Colors */
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  /* Text Colors */
+  --text-black: #090909;
+  --text-white: #eeefef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 500;
+  color: var(--text-white);
+}

@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  background: var(--primary-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 80px 28px;
+}
+
+.header .title {
+  font-size: 1.5rem;
+  line-height: 31.65px;
+  color: var(--text-white);
+}
+
+.header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+
+  list-style: none;
+}
+
+.header .navigation li {
+  font-size: 1.25rem;
+  line-height: 26.38px;
+  cursor: pointer;
+}
